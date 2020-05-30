@@ -34,7 +34,7 @@ header .logo
 
 header .logo span
 {
-    color: #37d72f;
+    color: #5f98d8;
 }
 
 header .toggle
@@ -68,7 +68,7 @@ header .toggle img
     top: 0;
     width: 400px;
     height: 100%;
-    background: #37d72f;
+    background: #5f98d8;
     transform-origin: top;
     transform: skewX(-25deg);
     z-index: 1;
