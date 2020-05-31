@@ -144,8 +144,8 @@
 .services .container .serviceBx
 {
   position: relative;
-  width: 350px;
-  height: 400px;
+  width: 500px;
+  height: 370px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,9 +154,9 @@
 
 .services .container .serviceBx img
 {
-  width: 450px;
-  height: 35vh;
-  padding: 30px 0 0 0;
+  width: 500px;
+  height: 370px;
+  padding: 10px 0 0 0;
 }
 
 .services .container .serviceBx h2
