@@ -489,6 +489,8 @@
 /* split 3 png files */
 .anime
 {
+  margin: 0;
+  padding: 0;
   background: #393939;
   padding: 100px;
   text-align: center;
@@ -516,11 +518,13 @@
   background: #fff;
 }
 
+
 .anime .container .serviceBx img
 {
   width: 400px;
   height: 320px;
 }
+
 
 @media(max-width: 991px)
 {
@@ -542,3 +546,99 @@
   }
 }
 
+.inner_container
+{
+  position: relative;
+}
+
+.inner_container .card
+{
+  position: relative;
+  width: 440px;
+  height: 540px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.inner_container .card:before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9bdc28;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.inner_container .card:hover:before
+{
+  clip-path: circle(300px at 80% -20%);
+}
+
+.inner_container .card:after
+{
+  content: 'Anime';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 12em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.04);
+}
+
+.inner_container .card .imgBx
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.inner_container .card:hover .imgBx
+{
+  top: 0%;
+  transform: translateY(0%);
+}
+
+.inner_container .card .imgBx img
+{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inner_container .card .contentBx
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+  opacity: 0;
+}
+
+.inner_container .card:hover .contentBx
+{
+  height: 160px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.inner_container .card .contentBx h2
+{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
