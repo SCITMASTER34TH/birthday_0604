@@ -10,7 +10,7 @@
 
 
 <body>
-    <div id="skrollr-body" data-0=""  data-3000="">
+    <div id="skrollr-body">
     <!-- Banner -->
     <div class="banner">
         <header>
@@ -200,7 +200,11 @@
     </div>
     <script src="img/skrollr.js"> </script>
     <script type="text/javascript">
-        var s = skrollr.init();
+        if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+        skrollr.init({
+        forceHeight: false
+        });
+        }
     </script>
     <!--
     
