@@ -592,7 +592,7 @@
 .inner_container .cd1:after
 {
   left: -10%;
-  content: 'Olivia';
+  content: 'Annie';
 }
 
 .inner_container .cd2:after
@@ -603,8 +603,26 @@
 
 .inner_container .cd3:after
 {
+  left: -10%;
+  content: 'Olivia';
+}
+
+.inner_container .cd4:after
+{
+  left: -10%;
+  content: 'Benimaru';
+}
+
+.inner_container .cd5:after
+{
   left: 2.5%;
   content: 'Mari';
+}
+
+.inner_container .cd6:after
+{
+  left: -12%;
+  content: 'Naruto';
 }
 
 .inner_container .card .imgBx
