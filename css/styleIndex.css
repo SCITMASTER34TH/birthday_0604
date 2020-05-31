@@ -485,3 +485,54 @@
 }
 
 
+
+/* split 3 png files */
+.card
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: #010615;
+}
+
+.card .box
+{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  transition: 0.5s;
+}
+
+.card .box:hover
+{
+  height: 400px;
+}
+
+.card .box .imgBx
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card .box .imgBx img
+{
+  max-width: 100%;
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.card .box:hover .imgBx img
+{
+  opacity: 1;
+}
