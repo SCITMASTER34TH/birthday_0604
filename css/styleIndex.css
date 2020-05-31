@@ -565,18 +565,20 @@
 {
   content: '';
   position: absolute;
-  top: 0;
+  top: -7%;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f8e46f;
+  background: #555;
   clip-path: circle(150px at 80% 20%);
   transition: 0.5s ease-in-out;
 }
 
 .inner_container .card:hover:before
 {
+  top: 0%;
   clip-path: circle(300px at 80% -20%);
+  background: #f8e46f;
 }
 
 .inner_container .card:after
@@ -593,36 +595,53 @@
 {
   left: -10%;
   content: 'Annie';
+  transition: 0.5s ease-in-out;
 }
 
 .inner_container .cd2:after
 {
   left: 25%;
   content: 'Eri';
+  transition: 0.5s ease-in-out;
 }
 
 .inner_container .cd3:after
 {
   left: -10%;
   content: 'Olivia';
+  transition: 0.5s ease-in-out;
 }
 
 .inner_container .cd4:after
 {
   left: -10%;
   content: 'Benimaru';
+  transition: 0.5s ease-in-out;
 }
 
 .inner_container .cd5:after
 {
   left: 2.5%;
   content: 'Mari';
+  transition: 0.5s ease-in-out;
 }
 
 .inner_container .cd6:after
 {
   left: -12%;
   content: 'Naruto';
+  transition: 0.5s ease-in-out;
+}
+
+.inner_container .cd1:hover::after,
+.inner_container .cd2:hover::after,
+.inner_container .cd3:hover::after,
+.inner_container .cd4:hover::after,
+.inner_container .cd5:hover::after,
+.inner_container .cd6:hover::after
+{
+  color: #f8e46f;
+  opacity: 0.3;
 }
 
 .inner_container .card .imgBx
