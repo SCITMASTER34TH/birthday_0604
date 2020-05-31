@@ -9,6 +9,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+body
+{
+  overflow-x: hidden;
+}
+
 .banner
 {
   position: relative;
@@ -114,12 +119,6 @@
   font-weight: 300;
   letter-spacing: 1px;
 }
-
-body
-{
-  overflow-x: hidden;
-}
-
 
 .about .imgBx
 {
