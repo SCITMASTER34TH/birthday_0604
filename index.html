@@ -200,11 +200,9 @@
     </div>
     <script src="img/skrollr.js"> </script>
     <script type="text/javascript">
-        if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
-        skrollr.init({
-        forceHeight: false
+        var s = skrollr.init({
+        smoothScrolling: false
         });
-        }
     </script>
     <!--
     
