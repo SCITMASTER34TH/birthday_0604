@@ -935,7 +935,7 @@
 .profile
 {
   background-color: #efefef;
-  height: 45vh;
+  height: 100vh;
 }
 
 .profile .container
@@ -955,7 +955,7 @@
   border-radius: 5px;
   box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transform: translateY(-70%);
+  /*transform: translateY(-70%);*/
 }
 
 .profile .card:before
