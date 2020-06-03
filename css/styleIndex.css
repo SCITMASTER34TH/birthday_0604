@@ -9,6 +9,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.spanpoint
+{
+  color: #9dc4fa;
+}
+
 
 .banner
 {
@@ -1108,7 +1113,7 @@
 {
   font-size: 1rem;
   opacity: 0.8;
-  color: #ddd;
+  color: #fff;
 }
 
 .card .content
